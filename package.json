@@ -2,24 +2,25 @@
   "name": "goit-js-hw-08",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://rywkimz.github.io/goit-js-hw-08/dist/",
+  "homepage": "https://goitacademy.github.io/goit-js-hw-08",
+  "type": "module",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rywkimz/goit-js-hw-08.git"
+    "url": "git+https://github.com/goitacademy/goit-js-hw-08"
   },
   "keywords": [],
-  "author": "Georgiana Fildan <fil.georgiana03@gmail.com>",
+  "author": "Georgiana Fildan <georgiana03@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "@vimeo/player": "^2.23.1",
-    "lodash.throttle": "^4.1.1",
+    "@vimeo/player": "^2.23.0",
+    "lodash": "^4.17.21",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.14.3"
   },
