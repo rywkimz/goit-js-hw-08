@@ -1,4 +1,5 @@
-import throttle from 'lodash.throttle';
+import Player from '@vimeo/player';
+import throttle from 'lodash.throttle'; // Ensure this is at the top
 
 const STORAGE_KEY = 'feedback-form-state';
 
